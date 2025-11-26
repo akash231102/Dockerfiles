@@ -1,5 +1,5 @@
 FROM almalinux:9
 RUN dnf install nginx -y
-RUN useradd akash
+#RUN useradd akash
 #USER akash
-#CMD ["sleep","1000"]
+CMD ["sleep","1000"]
