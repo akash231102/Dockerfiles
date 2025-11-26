@@ -4,4 +4,4 @@ ARG COURSE="DOCKER" \
     TRAINER="AKASH"
 ENV COURSE=${COURSE}
 RUN echo "Trainer = ${TRAINER}, Course = ${COURSE}, Version = ${VERSION}"
-CMD ["sleep",'1000']
+CMD ["sleep","1000"]
